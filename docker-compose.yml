@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  tp-link-hs110-domoticz:
+    image: theodoorvandonge/tp-link-hs110-domoticz
+    volumes:
+      - ./config.json:/app/config.json
